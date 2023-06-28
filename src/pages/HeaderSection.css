@@ -1,0 +1,144 @@
+/*------------- Landing Page--------------------------- */
+
+
+.title_design{
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px; 
+   z-index: 2; 
+  /* //align-items: center; */
+   font-family: 'Trebuchet MS';
+   text-align: center; 
+   padding: 2%;
+   background-color:  steelblue ;
+
+         }
+
+.landingPgLink{
+    
+     margin-left: 10%;
+     font-size:35px;
+     font-weight: 400;
+     color: rgb(27, 143, 215);
+          }  
+
+   .landingPgLink:hover{
+    color: rgb(73, 127, 244);
+   }           
+              
+
+/* ---------------------Chemist Signup page --------------*/
+        .SignupTitle{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -5px; 
+          z-index: 2; 
+          font-family: 'Trebuchet MS';
+          text-align: center; 
+          padding: 2%;
+          background-color: steelblue;
+               }
+
+      .SignUpSubmitBtn{
+          background-color:slategray ;
+          width:15%;
+                }
+
+      .SignUpCancelBtn{
+
+        background-color:slategray ;
+        width:15%;
+                    }
+
+      .sign_txtField
+             {
+              margin-Left: 500px;
+              width:40%;
+              margin-Top:5px;
+
+             }
+
+        
+        
+
+
+
+/* -------------------Login page ------------------ */
+
+
+
+.loginPageTitle{
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px; 
+  z-index: 2; 
+  font-family: 'Trebuchet MS';
+  text-align: center; 
+  padding: 2%;
+  background-color: steelblue;
+}
+
+
+/* ---------------Retrive page---------------- */
+
+
+      .tableColumn tr,th,td{
+       
+         border:1px solid rgb(8, 8, 167);
+                 }
+      .tableData td{
+           border:1px solid rgb(8, 8, 167);
+                   }
+      .tableColumn th{
+         border:1px solid rgb(8, 8, 167);
+          }
+      .tableColumn{
+          margin-left: 8%;
+          padding: 6%;
+          text-align: center;
+         }
+
+/* ---------------About Page ------------ */
+
+.abtHeader{
+  padding: 2%;
+  background-color: steelblue;
+     
+          }
+.abtTitle{
+   color:rgb(20, 19, 19);
+   text-align:end; 
+  
+        }
+
+.abtLink{
+    color:royalblue;
+    font-size:30px;
+    margin-left:75%;
+    margin-top:1%;
+      }
+
+.loginSubButton{
+          margin-left: 20%;
+        }
+
+/* ----------Admin Home Page --------------*/
+        .adminHomeList{
+         font-size: 150px;
+
+    }
+
+
+    /* #table_head{
+      visibility: hidden;
+     }   */
+/* ----------Admin Home Page - Operator Page --------------*/
+   
+.AdminOperLink{
+ background-color: antiquewhite;
+ padding:4%; 
+ border: 1px solid red;
+ text-decoration:none;
+
+}
